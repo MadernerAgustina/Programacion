@@ -1,0 +1,17 @@
+{
+  "name": "ProyectoPaginaWeb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "build": "purgecss --css <styles.css> --content index.html -o css/reducido.css"
+  },
+
+  "keywords": [],
+  "author": ""
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
