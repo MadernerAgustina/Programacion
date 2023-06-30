@@ -1,0 +1,17 @@
+.fondo-card{
+    background-image: url(./CONTAINER/Imágenes/pluma.avif);
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+$primary: #d38168; 
+$secondary: #46494d; 
+$danger: #d1aa57; 
+$warning: #af7d3b; 
+$success: #c4a783;
+
+@media(min-width:90px){
+    .alto-100{
+        height: 100vh;
+    }
+}
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
